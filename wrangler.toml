@@ -7,3 +7,8 @@ not_found_handling = "single-page-application"
 
 [observability.logs]
 enabled = true
+
+# Custom domain configuration
+[[routes]]
+pattern = "blazenote-frontend.cfcertified.link"
+custom_domain = true
